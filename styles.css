@@ -441,9 +441,14 @@ section { padding: 6rem 0; }
 .board-section { background: var(--beige); }
 
 .board-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.8rem;
+}
+
+.board-card {
+  flex: 0 1 280px;
 }
 
 .board-card {
@@ -646,7 +651,7 @@ section { padding: 6rem 0; }
   .navbar { position: relative; }
   .two-col { grid-template-columns: 1fr; gap: 3rem; }
   .cards-grid { grid-template-columns: 1fr; }
-  .board-grid { grid-template-columns: repeat(2, 1fr); }
+  .board-card { flex: 0 1 100%; max-width: 320px; }
   .blog-grid { grid-template-columns: 1fr; }
   .photo-grid { grid-template-columns: repeat(2, 1fr); }
   .event-card { grid-template-columns: 70px 1fr; }
