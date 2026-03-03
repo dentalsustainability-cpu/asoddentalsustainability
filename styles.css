@@ -449,9 +449,6 @@ section { padding: 6rem 0; }
 
 .board-card {
   flex: 0 1 280px;
-}
-
-.board-card {
   background: var(--white);
   border-radius: var(--radius);
   padding: 2rem 1.5rem;
