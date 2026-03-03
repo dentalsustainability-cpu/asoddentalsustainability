@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Photos — ASOD Dental Sustainability Club</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    .photo-upload-banner {
+      background: var(--white);
+      border: 2px dashed var(--sage-light);
+      border-radius: var(--radius);
+      padding: 3rem;
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .photo-upload-banner p { color: var(--text-muted); margin-top: 0.5rem; font-size: 0.9rem; }
+    .photo-upload-banner h3 { font-size: 1.3rem; font-weight: 400; }
+    .gallery-label { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--sage); margin-bottom: 1.5rem; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo">ASOD <span>Sustainability</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="board.html">Executive Board</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="photos.html" class="active">Photos</a></li>
+      <li><a href="events.html">Events</a></li>
+    </ul>
+    <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+  </nav>
+
+  <div class="page-hero">
+    <p class="section-label">Memories</p>
+    <h1>Our <em>Photos</em></h1>
+    <p>Moments from events, meetings, and community projects.</p>
+  </div>
+
+  <section class="photos-section">
+    <div class="container">
+
+      <div class="photo-upload-banner">
+        <div style="font-size:2.5rem; margin-bottom:0.8rem;">📷</div>
+        <h3>Add Your Photos Here</h3>
+        <p>Replace the placeholder tiles below by adding your own images to the <code>images/</code> folder in your repository and updating the <code>src</code> attributes in this file.</p>
+      </div>
+
+      <div class="gallery-label">Events & Gatherings</div>
+      <div class="photo-grid" style="margin-bottom:3rem;">
+        <div class="photo-placeholder">🌿</div>
+        <div class="photo-placeholder">🦷</div>
+        <div class="photo-placeholder">♻️</div>
+        <div class="photo-placeholder">🌱</div>
+        <div class="photo-placeholder">🤝</div>
+        <div class="photo-placeholder">🌍</div>
+      </div>
+
+      <div class="gallery-label">Community Projects</div>
+      <div class="photo-grid" style="margin-bottom:3rem;">
+        <div class="photo-placeholder">💚</div>
+        <div class="photo-placeholder">🌊</div>
+        <div class="photo-placeholder">🌻</div>
+        <div class="photo-placeholder">📚</div>
+        <div class="photo-placeholder">🎓</div>
+        <div class="photo-placeholder">🌸</div>
+      </div>
+
+      <div class="gallery-label">Campus Life</div>
+      <div class="photo-grid">
+        <div class="photo-placeholder">☀️</div>
+        <div class="photo-placeholder">🍃</div>
+        <div class="photo-placeholder">💧</div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">ASOD Sustainability Club</div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="board.html">Board</a>
+        <a href="blog.html">Blog</a>
+        <a href="photos.html">Photos</a>
+        <a href="events.html">Events</a>
+      </nav>
+      <p class="footer-copy">© 2025 ASOD Dental Sustainability Club. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
