@@ -447,6 +447,10 @@ section { padding: 6rem 0; }
   gap: 1.8rem;
 }
 
+.board-row-top {
+  margin-bottom: 1rem;
+}
+
 .board-card {
   flex: 0 1 280px;
   background: var(--white);
